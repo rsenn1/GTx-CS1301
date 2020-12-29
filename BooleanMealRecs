@@ -20,11 +20,12 @@ night = False
 
 soup = (cold and evening or night)
 biscuit = (morning and cold)
-cereal = (morning or hot or night)
+cereal = (morning and hot or night)
 pizza = (evening or night)
 
 print("Soup:" , soup)
 print("Biscuit:" , biscuit)
 print("Cereal:" , cereal)
 print("Pizza:" , pizza)
+
 
